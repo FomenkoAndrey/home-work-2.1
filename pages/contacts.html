@@ -2,61 +2,61 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacts</title>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Contacts</title>
 </head>
 
 <body>
 
-    <h1>Contacts</h1>
+<h1>Contacts</h1>
 
+<div>
+  <a href="../index.html">index</a>
+  <a href="articles.html">articles</a>
+  <a href="catalog.html">catalog</a>
+  <a href="contacts.html">contacts</a>
+  <a href="gallery.html">gallery</a>
+  <a href="page-nav.html">page-nav</a>
+  <a href="registration.html">regisrtation</a>
+</div>
+
+<p>Адрес: г. Киев, проспект Любомира Гузара 1</p>
+
+<div><img alt="map" src="../img/map.png" width="750"></div>
+
+<form action="contacts.php" method="GET">
+  <fieldset>
+    <legend>Форма Контакты</legend>
     <div>
-        <a href="../index.html">index</a>
-        <a href="articles.html">articles</a>
-        <a href="catalog.html">catalog</a>
-        <a href="contacts.html">contacts</a>
-        <a href="gallery.html">gallery</a>
-        <a href="page-nav.html">page-nav</a>
-        <a href="registration.html">regisrtation</a>
+      <label for="name_cont">Имя</label>
+      <input id="name_cont" name="name_cont" placeholder="Имя" type="text">
     </div>
+    <div>
+      <label for="tel">Телефон</label>
+      <input id="tel" name="tel" placeholder="Телефон" type="tel">
+    </div>
+    <div>
+      <label for="email_cont">Email</label>
+      <input id="email_cont" name="email_cont" placeholder="Email" type="email">
+    </div>
+    <div>
+      <label for="txt_question">Задайте вопрос</label>
+      <textarea cols="30" id="txt_question" name="txt_question" rows="10"></textarea>
+    </div>
+    <div>
+      <button type="submit">Отправить форму</button>
+    </div>
+    <div>
+      <button type="reset">Очистить форму</button>
+    </div>
+  </fieldset>
+</form>
 
-    <p>Адрес: г. Киев, проспект Любомира Гузара 1</p>
-   
-    <img src="../img/map.png" alt="map" width="750">
-
-    <form action="contacts.php" method="GET">
-        <fieldset>
-            <legend>Форма Контакты</legend>
-              <div>
-                <label for="name_cont">Имя</label>
-                <input id="name_cont" name="name_cont" placeholder="Имя" type="text">
-              </div>
-              <div>
-                <label for="tel">Телефон</label>
-                <input id="tel" name="tel" placeholder="Телефон" type="tel">
-              </div>
-              <div>
-                <label for="email_cont">Email</label>
-                <input id="email_cont" name="email_cont" placeholder="Email" type="email">
-              </div>
-              <div>
-                <label for="txt_question">Задайте вопрос</label>
-               <textarea name="txt_question" id="txt_question" cols="30" rows="10"></textarea>
-              </div>
-              <div>
-                <button type="submit">Отправить форму</button>
-              </div>
-              <div>
-                <button type="reset">Очистить форму</button>
-              </div>
-        </fieldset>
-    </form>
-    
-    <footer>
-        <p>&#169;</p>
-    </footer>
+<footer>
+  <p>&#169; Student Pupkin</p>
+</footer>
 
 </body>
 
