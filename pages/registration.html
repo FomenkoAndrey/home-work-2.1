@@ -24,7 +24,7 @@
 
 <form action="https://tests.fomenko.top/echo/index.php" method="GET">
   <fieldset>
-    <legend>Форма</legend>
+    <legend>Основные данные</legend>
     <div>
       <label for="surname">Фамилия</label>
       <input id="surname" name="surname" placeholder="Фамилия" type="text">
@@ -66,6 +66,7 @@
       <input id="date" name="date" type="date">
     </div>
     <!-- Это не новая группа, просто абзац текст с описанием -->
+    <!-- Лучше так не делать, а выполнить корректное группирование элементов формы -->
     <p>Выберите предпочитаемую кухню</p>
     <div>
       <input checked id="kitchen-ua" name="kitchen" type="checkbox" value="ua">
